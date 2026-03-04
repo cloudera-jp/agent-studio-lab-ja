@@ -1,0 +1,73 @@
+# モジュール 2：Agent Studio でのマルチエージェントワークフロー設計
+
+手動でエージェントを設計する複雑さをより理解した上で、Agent Studio を使用して同じワークフローを構築しましょう。このラボでは、早前に構築した同じ Air quality Investigator System を Agent Studio で作成します。
+
+**目的**
+
+- [ ] Agent Studio でテンプレートとワークフローを作成
+- [ ] エージェント、ツール、タスクのセットアップ方法を学ぶ
+- [ ] Agent Studio でカスタムツールを構築
+- [ ] ワークフローのテストとデプロイ
+- [ ] ワークフローの監視
+
+## 必要な環境
+
+- [ ] GOES Team が設定したラボテナントへのアクセス
+- [ ] Agent Studio は既に割り当てられた Cloudera AI プロジェクトに実装されている
+
+## ラボ
+
+<div class="grid cards"  markdown>
+
+- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 1. Agent Studio でテンプレートとワークフローを作成**
+
+    ***
+
+    **目的**
+
+    - [ ] Cloudera AI Studio に慣れる
+    - [ ] Cloudera AI Studio でエージェント作成を開始
+
+    ***
+
+    [:octicons-arrow-right-24: ラボ 1 へ移動](./lab1.md)
+
+- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 2. Agent Studio でタスクを作成**
+
+    ***
+
+    **目的**
+
+    - [ ] エージェント用のタスクを作成
+    - [ ] 動的入力（代入）を作成
+
+    ***
+
+    [:octicons-arrow-right-24: ラボ 2 へ移動](./lab2.md)
+
+- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 3. Agent Studio でカスタムツールを作成**
+
+    ***
+
+    **目的**
+
+    - [ ] エージェントワークフローが API と S3 バケットに接続できることを確認
+    - [ ] エージェントが機能に必要なデータを持つことを確認
+
+    ***
+
+    [:octicons-arrow-right-24: ラボ 3 へ移動](./lab3.md)
+
+- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 4. ワークフロー のテスト、監視、デプロイ**
+
+    ***
+
+    **目的**
+
+    - [ ] エージェンティックワークフローをテスト、監視し、アプリケーションとしてデプロイする方法
+
+    ***
+
+    [:octicons-arrow-right-24: ラボ 4 へ移動](./lab4.md)
+
+</div>
