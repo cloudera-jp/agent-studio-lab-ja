@@ -38,7 +38,7 @@ Group Size : 2 Members ( Pair Programming)
     |  |  |  |
     |  |  |  |
 
- ![ピザ配達](./pizza_delivery.jpg)
+ ![ピザ配達](./pizza_delivery_ja.jpg)
 
 ## 1.2 このプロセスのためのエージェンティックワークフロー作成
 
