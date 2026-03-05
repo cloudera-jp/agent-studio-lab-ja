@@ -1,5 +1,5 @@
-````markdown
-# ラボ 2: Agent Studio でタスクを作成
+
+# ラボ 2: Agent Studio でタスクを作成する
 
 ## 目的
 
@@ -8,17 +8,17 @@
 
 ## ラボ手順
 
-エージェントが働くべきタスクを定義しましょう。
+エージェントが行うタスクを定義しましょう。
 
 * 下に示すタスク画面から始めます。
 
 ![ai_studio_edit_tasks](./ai_studio_edit_tasks.png)
 
-| 説明 | Agent | 期待される出力 |
+| Task Description | Agent | Expected Output |
 | :---- | :---- | :---- |
-| ユーザ入力 `{user_input}` を解析し、locations、start_date、end_date、air quality parameters を InputParserTool で抽出する。 | input_parser_agent | 解析された 'locations'、'start_date'、'end_date'、'aq_parameters' を含む辞書 |
-| 各指定地点について 'bounding_box_extractor' ツールを使い、バウンディングボックス座標を取得する。各地点に紐づくバウンディングボックスを返す。 | bounding_box_retriever | 各場所の（南、西、北、東）の座標を含む辞書またはリスト |
-| 指定地点ごとにバウンディングボックスと start_date、end_date を使い、指定期間の歴史気象条件の簡潔な要約を weather tool で取得する。大気質に影響しうる主要な気象要素（気温、風、降水など）に着目する。 | weather_data_integrator | 各場所の歴史気象条件の集約を含む辞書またはリスト |
+| 日本語のユーザ入力 `{user_input}` を解析し、InputParserTool を使用して、locations、start_date、end_date、air quality parameters を抽出する。 | input_parser_agent | 解析された 'locations'、'start_date'、'end_date'、'aq_parameters' を含むディクショナリ形式の情報 |
+| 各指定地点について 'bounding_box_extractor' ツールを使い、バウンディングボックス座標を取得する。各地点に紐づくバウンディングボックスを返す。 | bounding_box_retriever | 各地点の東西南北の座標を含むディクショナリまたはリスト |
+| 指定地点ごとにバウンディングボックスと start_date、end_date を使い、指定期間の歴史気象条件の簡潔な要約を weather tool で取得する。大気質に影響しうる主要な気象要素（気温、風、降水など）に着目する。 | weather_data_integrator | 各場所の歴史気象条件の集約を含むディクショナリまたはリスト |
 | 各地点のバウンディングボックスを使って start_date から end_date までの OpenAQ データを `air_quality_tool` で取得する。aq_parameters が指定されている場合はそれに集中して取得する。結果を pandas DataFrame として返す。 | air_quality_retriever | 指定場所・日付・パラメータの大気質データを含む pandas DataFrame |
 
 * `Save and Next` をクリックして設定ページに移動します。
@@ -27,11 +27,17 @@
 
 ![ai_studio_workflow_config](./ai_studio_workflow_config.png)
 
-* では、ワークフローをテストしてみましょう。以下の user_input を使用します。
+* では、ワークフローをテストしてみましょう。以下は user_input の例です。
 
     ```
-    Can you provide an air quality report for Sydney, Australia  between 01.May.2025 to 03.May.2025 focussing on pm25 parameter
+    2026年3月1日から3月3日までの東京の大気質レポートをください。特にPM2.5の数値に焦点を当てること。
     ```
+
+* 結果が出たら、ファクトチェックをしてみましょう。
+
+以下は環境省が提供する環境省大気汚染物質広域監視システム、通称「そらまめくん」です。
+https://soramame.env.go.jp/preview/chart/01108010/7day/PM25/-
+
 
 * ご覧のように、LLM は現在幻覚を起こしており、2023 年 10 月のニューヨークとロサンゼルスなどのデータを生成しています。
 
@@ -52,4 +58,3 @@
 
 **:rocket: これでラボ 2 を終了します :rocket:**
 
-````
