@@ -71,3 +71,5 @@ pip install -r requirements.txt
 - [x] 外部の大気質データにアクセスするために OPENAQ のアカウントを作成し、API キーを生成してプロジェクトに登録しました。
 
 :rocket: これでラボ 1 を終了します :rocket:
+
+[Lab2へ進む](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module1/lab2.md)
