@@ -1,4 +1,5 @@
-````markdown
+markdown
+
 # ラボ 4: ワークフローの テスト、監視、デプロイ
 
 ## 目的
@@ -34,7 +35,7 @@ Can you provide an air quality report for Sydney  between 01.Jan.2025 to 03.Jan.
 * 以下のテキストを `user_input` テキストボックスに追加してワークフローをテストします。
 
 ```text {.prompt-block}
-Can you provide an air quality report for Sydney, Australia  between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter
+2026年3月1日から3月3日までの東京の大気質レポートをください。特にPM2.5の数値に焦点を当てること。
 ```
 
 ![ai_studio_test_workflow](./ai_studio_test_workflow.png)
@@ -94,8 +95,7 @@ Can you provide an air quality report for Melbourne between 01.Jan.2025 to 03.Ja
 
 - [x] このラボでは、エージェンティックワークフローをテスト、監視し、アプリケーションとしてデプロイする方法を学びました。
 
-**:rocket: これでラボ 4 を終了します :rocket: **
+これでラボ 4 を終了します。
 
-**:rocket: これでハンズオンワークショップを終了します :rocket: **
+以上でハンズオンのすべての演習は終了です。おつかれさまでした！
 
-````
