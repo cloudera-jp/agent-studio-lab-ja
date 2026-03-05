@@ -1,23 +1,19 @@
-# Cloudera AI Agent Studio ハンズオ
+# Cloudera AI Agent Studio ハンズオン
 
-Cloudera AI を使用したエージェンティックワークフロー設計のハンズオンです。
-実際の業務をイメージしたユースケースでエージェンティックワークフローを設計し、AI Studio で瞬時にエンドツーエンドのスマートワークフローを構築する流れを体験しましょう。
+Cloudera AI を使用したエージェンティックワークフロー作成のハンズオンです。
 
-> **中身は？**
->
-> - ワークショップ環境をデプロイ・構成するためのインストラクタガイドと自動化。
->
+Cloudera のグローバルチームが作成したハンズオンを、日本の参加者のみなさんがイメージしやすいように、Japan チームがアレンジして提供しています。
 
-## 🔗 クイックリンク （英語リソース)
+実際の業務をイメージしたユースケースでエージェンティックワークフローを設計し、AI Studio で瞬時にエンドツーエンドのスマートワークフローを構築する流れを体験しましょう！
 
-| リソース | 説明 |
-|----------|-------------|
-| **🌐 ラボガイドを表示** | **[Live MkDocs Site](https://github.infra.cloudera.com/pages/GOES/hol-005-agentic-studio/)**<br/>レンダリングされたラボガイドを参照します。 |
-| **📋 インストラクタガイド** | **[Instructor README](./instructor/README.md)**<br/>セットアップのヒント、ラボの目的、進行に関するメモ。 |
-| **🗂️ ラボコンテンツ（生）** | **[Markdown Sources](./content/)**<br/>サイトの生成に使用される `.md` ファイル — フォーク、調整、拡張できます。 |
+# 演習の順番
 
-## 貢献
+|目次 | 内容|
+|:-|:-|
+[準備](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module1/lab1.md)|演習の準備についての説明です。講師の指示にしたがって実施してください。|
+[演習](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module2/lab1.md)|Agent Studio を利用したマルチAIエージェント作成のハンズオン手順です。リンクにしたがって最後まで進めることができます。|
 
-誤植や改善提案があった場合は、遠慮なくイシューを開いたり、プルリクエストを送信してください。
+# お気づきの点について
 
-![Umami metrics](https://metrics.cloudera-labs.com/p/hZuXUDd0r)
+* みなさまからのフィードバックを歓迎いたします✨
+* お気づきの点があれば、Cloudera Japan チームにお知らせいただくか、Issue、 プルリクエストなどをぜひ挙げてください！
