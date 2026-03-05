@@ -12,23 +12,11 @@ markdown
 
 ![edit_workflow](./edit_workflow.png)
 
-* 能力説明をクリックして、下のテキストボックスに以下のテキストを追加します。
-
-```text {.prompt-block}
-「Air Aware」ワークフローは、指定された場所と日付範囲に対して包括的な大気質分析を提供するように設計されています。これには、このゴールを達成するために協調的に動作する一連の専門家エージェントとタスクが含まれます。このプロセスは各場所のバウンディングボックス座標の取得から始まり、その後、これらの座標を使用して、温度、風、降水などの大気質に影響する要因に焦点を当てた歴史的気象データを収集します。同時に、OpenAQ から指定されたパラメータに焦点を当てた大気質データが取得されます。収集されたデータは、傾向を特定し、平均値を計算し、気象条件と大気質の間の潜在的な相関関係を探るために分析されます。ワークフローは、各場所の大気質状況を要約し、重要な発見と気象パターンに関連する注目すべき観察をハイライトする詳細なレポートで締めくくられます。
-
-ツールへの入力 : 
-Can you provide an air quality report for Sydney  between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter
-```
-
-![ai_studio_update_capability_guide](./ai_studio_update_capability_guide.png)
-
 * `Save & Next` をクリックしてワークフローの _Configure_ ステップに到達するまでクリックします。
 
 ![ai_studio_configure_workflow](./ai_studio_configure_workflow.png)
 
 * 「Getting Setup for Workshop」ラボで作成した Open AQ ウェブサイトから生成した API キーを入力します。`Save & Next` をクリックします。
-
 
 ラボ 1 リファレンス：[Getting Setup for Workshop](../module1/lab1.md)
 
@@ -80,7 +68,7 @@ Can you provide an air quality report for Sydney  between 01.Jan.2025 to 03.Jan.
 * これにより UI ページが開きます。以下の入力を入力して、3 つの都市の大気質を比較してテストしてみましょう。
 
 ```text {.prompt-block}
-Can you provide an air quality report for Melbourne between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter
+2026年3月1日から3月3日までの東京の大気質レポートをください。特にPM2.5の数値に焦点を当てること。
 ```
 
 ![ai_studio_input_deployed_workflow](./ai_studio_input_deployed_workflow.png)
