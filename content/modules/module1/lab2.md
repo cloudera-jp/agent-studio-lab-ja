@@ -46,7 +46,7 @@ Group Size : 2 Members ( Pair Programming)
 
 **Agents** -> _(実行)_ -> **Tasks and Agents** -> _(使用)_ -> **Tools flows**.
 
-![ピザクルーワークフロー](./pizza_crew_workflow.png)
+![ピザクルーワークフロー](./pizza_crew_workflow_ja.png)
 
 **問い：**
 
@@ -81,7 +81,7 @@ Group Size : 2 Members ( Pair Programming)
 
 #### アプリケーションのワークフロー
 
- ![airwave_agentic_workflow](./airwave_agentic_workflow.png)
+ ![airwave_agentic_workflow](./airwave_agentic_workflow_ja.png)
 
 #### コード作業
 
@@ -191,3 +191,4 @@ python3 main_v1.py \
 
  **:rocket: これでラボ 2 を終了します :rocket:**
 
+[Lab3へ進む](https://github.com/cloudera-jp/agent-studio-lab-ja/edit/main/content/modules/module1/lab3.md)
