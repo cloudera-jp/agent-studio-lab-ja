@@ -62,6 +62,6 @@ LLMの出力結果は、ハルシネーションを起こしています。
 
 - [x] プロンプトのみでは高品質な出力を生成する能力が不足していることを認識しました
 
-**:rocket: これでラボ 2 を終了します :rocket:**
+以上でラボ2は終了です。
 
-[Lab3へ進む](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module2/lab3.md)
+[ラボ3へ進む](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module2/lab3.md)

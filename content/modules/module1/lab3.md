@@ -52,4 +52,9 @@
 - [x] エージェントに新しいツールを装備する方法を学んだ
 - [x] ハンドコーディングされたエージェントは、クライアントのワークフローを CAI に移行する際の助言に重要であることを理解した
 
-**:rocket: これでラボ 3 を終了します :rocket:**
+以上で ラボ 3 は終了です 
+
+おつかれさまでした！
+
+
+[モジュール2に進む](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module2/lab1.md)

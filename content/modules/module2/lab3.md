@@ -1,4 +1,3 @@
-````markdown
 # ラボ 3: Agent Studio でカスタムツールを作成
 
 ## 目的
@@ -16,8 +15,7 @@
 * 以下の名前でツールのリストを作成します：
   * Input Parser  `TeamXX` （チーム名を使用）
 
-!!! NOTE
-    ツール名には特殊文字は使用できません。
+ツール名にはスペースを含めることはできますが、特殊文字（-や_など）は**使用できません。**
 
 ![ai_studio_create_tool_template](./ai_studio_create_tool_template.png)
 
@@ -25,24 +23,14 @@
 
 ![ai_studio_edit_tool_file](./ai_studio_edit_tool_file.png)
 
-!!! Danger "重要"
-    ブランチ名：「LAB」ブランチと フォルダ名：すべてのツールに対して「agent_tools_cai_studio」を使用します。
-
-* ツールコードを更新します：
-    * GitHub の CAI カスタムツール用ロケーションにアクセスします [url](https://github.com/SuperEllipse/AirAware/tree/Lab/agent_tools_cai_studio)
-    * input_parser_tool.py コードを tool.py ファイルにコピーします
-    * Cloudera AI `tool.py` ファイルの`input_parser_tool.py` コードを更新します。
-
-!!! Danger "重要"
-    使用するフォルダが `agent_tools_cai_studio` であることを確認してください。
-    ![ai_studio_update_input_parser_tool](./branch_and_folder_note.png)
-
+`tools.py` の内容を、下記リンク配下の「input_parser_tool.py」の内容で更新します。
+https://github.com/cloudera-jp/AirAware_JA/tree/main/agent_tools_cai_studio
 
 * リフレッシュして `input_parser_tool.py` が更新されたことを確認します。最後に下のボタンをクリックしてツールを保存します。
 
 ![ai_studio_refresh_input_parser_tool](./ai_studio_refresh_input_parser_tool.png)
 
-* 同じアプローチを使用して、tool.py を更新して 3 つ以上のツールを同様に作成します。チーム名を追加するのを忘れないでください。
+* 同様に、tool.py を更新して 3 つ以上のツールを同様に作成します。ツール名が全体で一意になるよう、チーム名を追加するのを忘れないでください。
     * Geocode_Boundingbox Tool
     * Weather Tool
     * Air Quality Analysis Tool（**注意**：ここでは 2 つのファイル tool.py と requirements.txt を更新する必要があります。以下の注意を参照してください）
@@ -88,6 +76,10 @@
 
 ![ai_studio_input_parser_workflow](./ai_studio_input_parser_workflow.png)
 
+* ツールを使うエージェントに対しては、Description の内容に以下の文言を追加しておくとよいです。
+
+`output の都市名は英語表記とすること。`
+
 * 同じアプローチに従って、他のすべてのツールをエージェントワークフローに追加します。すなわち：
     * Geocoding Tool
     * Weather Tool
@@ -101,6 +93,6 @@
 
 - [x] このラボでは、Agent Studio でカスタムツールを作成し、エージェントにこれらのツールを装備する方法を学びました。
 
-**:rocket: これでラボ 3 を終了します :rocket: **
+以上でラボ3は終了です。
 
-````
+[ラボ4へ進む](https://github.com/cloudera-jp/agent-studio-lab-ja/blob/main/content/modules/module2/lab4.md)
