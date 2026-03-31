@@ -4,18 +4,18 @@ Cloudera AI Studio は、エンタープライズ内の生成 AI ソリューシ
 
 このハンズオンワークショップ「エージェンティックワークフロー設計」は、**Cloudera AI Agent Studio** を使用してエンドツーエンドのエージェンティックワークフローを設計・構築する方法を参加者に教えることに焦点を当てています。実世界のユースケースにエージェンティックワークフロー設計を適用し、参加者が効率的でインテリジェントなソリューションを容易に作成できるようになることを目指しています。
 
-!!! info "ユースケースと目的"
-    このワークショップでの目的は、この課題に対処し、正確な大気質解析を提供する大気質調査システムを構築することです。
+## ユースケースと目的
 
-    <div align="center">
-      <img src="./assets/images/workshop_use_case.png" alt="Workshop Objective">
-    </div>
+このワークショップでの目的は、この課題に対処し、正確な大気質解析を提供する大気質調査システムを構築することです。
+
+![学習の目的](./assets/images/workshop_use_case.png "目的")
+
 
 ## モジュール
 
 <div class="grid cards"  markdown>
 
-- :material-google-classroom:{ .lg .middle } &nbsp; **ワークショップの範囲**
+- **ワークショップの範囲**
 
     ***
 
@@ -25,9 +25,9 @@ Cloudera AI Studio は、エンタープライズ内の生成 AI ソリューシ
 
     ***
 
-    [:octicons-arrow-right-24: ワークショップ範囲を表示](modules/README.md)
+    [ワークショップ範囲を表示](modules/README.md)
 
-- :material-google-classroom:{ .lg .middle } &nbsp; **AI エージェント基礎**
+- **AI エージェント基礎**
 
     ***
 
@@ -37,9 +37,9 @@ Cloudera AI Studio は、エンタープライズ内の生成 AI ソリューシ
 
     ***
 
-    [:octicons-arrow-right-24: プレゼンテーション](https://docs.google.com/presentation/d/1jSKkVN6xjV9blB_2pUYuZwnD1yhOVE9lzcAr-yVV8vE/edit)
+    [プレゼンテーション](https://docs.google.com/presentation/d/1jSKkVN6xjV9blB_2pUYuZwnD1yhOVE9lzcAr-yVV8vE/edit)
 
-- :fontawesome-solid-computer:{ .lg .middle } &nbsp; **AI エージェントのハンドコーディング**
+- **AI エージェントのハンドコーディング**
 
     ***
 
@@ -51,9 +51,9 @@ Cloudera AI Studio は、エンタープライズ内の生成 AI ソリューシ
 
     ***
 
-    [:octicons-arrow-right-24: モジュールコンテンツへ](modules/module1/README.md)
+    [モジュールコンテンツへ](modules/module1/README.md)
 
-- :fontawesome-solid-computer:{ .lg .middle } &nbsp; **Agent Studio でのマルチエージェントワークフロー設計**
+- **Agent Studio でのマルチエージェントワークフロー設計**
 
     ***
 
@@ -63,7 +63,7 @@ Cloudera AI Studio は、エンタープライズ内の生成 AI ソリューシ
 
     ***
 
-    [:octicons-arrow-right-24: モジュールコンテンツへ](modules/module2/README.md)
+    [モジュールコンテンツへ](modules/module2/README.md)
 
 </div>
 
