@@ -19,7 +19,7 @@
 
 <div class="grid cards"  markdown>
 
-- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 1. Agent Studio でテンプレートとワークフローを作成**
+- **ラボ 1. Agent Studio でテンプレートとワークフローを作成**
 
     ***
 
@@ -30,9 +30,9 @@
 
     ***
 
-    [:octicons-arrow-right-24: ラボ 1 へ移動](./lab1.md)
+    [ラボ 1 へ移動](./lab1.md)
 
-- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 2. Agent Studio でタスクを作成**
+- **ラボ 2. Agent Studio でタスクを作成**
 
     ***
 
@@ -43,9 +43,9 @@
 
     ***
 
-    [:octicons-arrow-right-24: ラボ 2 へ移動](./lab2.md)
+    [ラボ 2 へ移動](./lab2.md)
 
-- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 3. Agent Studio でカスタムツールを作成**
+- **ラボ 3. Agent Studio でカスタムツールを作成**
 
     ***
 
@@ -56,9 +56,9 @@
 
     ***
 
-    [:octicons-arrow-right-24: ラボ 3 へ移動](./lab3.md)
+    [ラボ 3 へ移動](./lab3.md)
 
-- :material-test-tube:{ .lg .middle } &nbsp; **ラボ 4. ワークフロー のテスト、監視、デプロイ**
+- **ラボ 4. ワークフロー のテスト、監視、デプロイ**
 
     ***
 
@@ -68,6 +68,6 @@
 
     ***
 
-    [:octicons-arrow-right-24: ラボ 4 へ移動](./lab4.md)
+    [ラボ 4 へ移動](./lab4.md)
 
 </div>
