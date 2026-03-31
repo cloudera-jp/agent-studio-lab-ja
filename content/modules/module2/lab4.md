@@ -4,35 +4,37 @@ markdown
 
 ## 目的
 
-- [ ] このラボでは、エージェンティックワークフローをテスト、監視し、アプリケーションとしてデプロイします。
+- [ ] 作成したワークフローをテストし、アプリケーションとしてデプロイしてみましょう
 
 ## ラボ手順
 
-* ホームページから編集モードでワークフローをクリックします。
+* ワークフローの編集ボタンをクリックします
 
 ![edit_workflow](./edit_workflow.png)
 
-* `Save & Next` をクリックしてワークフローの _Configure_ ステップに到達するまでクリックします。
+* `Save & Next` をクリックして、ワークフローの _Configure_ ステップまで進みます。
 
 ![ai_studio_configure_workflow](./ai_studio_configure_workflow.png)
 
-* 「Getting Setup for Workshop」ラボで作成した Open AQ ウェブサイトから生成した API キーを入力します。`Save & Next` をクリックします。
+* 「Getting Setup for Workshop」Open AQ の API キーを入力します。
 
-ラボ 1 リファレンス：[Getting Setup for Workshop](../module1/lab1.md)
+APIキーは、講師が指示したページの「天気の秘密」からコピーしてください
 
-* 以下のテキストを `user_input` テキストボックスに追加してワークフローをテストします。
+* `Save & Next` をクリックします。
+
+* 以下のテキストを `user_input` に入力し、ワークフローをテストしてみましょう。
 
 ```text {.prompt-block}
-2026年3月1日から3月3日までの東京の大気質レポートをください。特にPM2.5の数値に焦点を当てること。
+2026年3月26日から3月28日までの東京の大気質レポートをください。特にPM2.5の数値に焦点を当てること。
 ```
 
 ![ai_studio_test_workflow](./ai_studio_test_workflow.png)
 
-* 「Monitoring」アイコンタブをクリックして Phoenix を使用してワークフローを監視します。
+* 「Monitoring」アイコンタブをクリックすると、 ワークフローの監視画面が起動します。
 
 ![ai_studio_monitoring](./ai_studio_monitoring.png)
 
-* プロジェクト名をクリックして Phoenix を使用してワークフロー監視できるようになります。
+* これらは、OSS の Phoenix を利用した監視画面です。
 
 ![ai_studio_monitoring_project](./ai_studio_monitoring_project.png)
 
