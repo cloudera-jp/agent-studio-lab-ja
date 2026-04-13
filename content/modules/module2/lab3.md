@@ -70,6 +70,7 @@ https://github.com/cloudera-jp/AirAware_JA/tree/main/agent_tools_cai_studio
 
 |ツール名|tool.py の更新内容| requirement.txtの更新 |
 |:-|:-|:-|
+|InputParser XX|[input_parser_tool.py](https://github.com/cloudera-jp/AirAware_JA/blob/main/agent_tools_cai_studio/input_parser_tool.py)|不要|
 |Geocode XX|[geocode_boundingbox_tool.py](https://github.com/cloudera-jp/AirAware_JA/blob/main/agent_tools_cai_studio/geocode_boundingbox_tool.py)|不要|
 |Weather XX|[weather_tool.py](https://github.com/cloudera-jp/AirAware_JA/blob/main/agent_tools_cai_studio/weather_tool.py)|不要|
 |Air Quality XX|[air_quality_analysis_tool.py](https://github.com/cloudera-jp/AirAware_JA/blob/main/agent_tools_cai_studio/air_quality_analysis_tool.py)|以下の内容で上書きする<br>pydantic<br>boto3==1.38.17<br>pandas==2.2.3|
@@ -115,6 +116,7 @@ https://github.com/cloudera-jp/AirAware_JA/tree/main/agent_tools_cai_studio
 
 |エージェント名|追加するツール |
 |:-|:-|
+|input_parser|Input Parser XX|
 |bounding_box_retriever|Geocode XX|
 |weather_data_integrator|Weather XX|
 |air_quality_retriever|Air Quality XX|
